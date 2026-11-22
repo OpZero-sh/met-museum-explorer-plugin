@@ -13,6 +13,14 @@
       {
         "id": "build-a-gallery-tour",
         "path": "skills/build-a-gallery-tour/SKILL.md"
+      },
+      {
+        "id": "explore-a-department",
+        "path": "skills/explore-a-department/SKILL.md"
+      },
+      {
+        "id": "find-an-artwork",
+        "path": "skills/find-an-artwork/SKILL.md"
       }
     ],
     "mcpServers": [
