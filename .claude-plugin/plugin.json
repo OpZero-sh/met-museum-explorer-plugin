@@ -1,0 +1,23 @@
+{
+  "name": "met-museum-explorer",
+  "version": "1.0.0",
+  "description": "Build a personal tour of The Met with collection records, gallery numbers and questions for close looking.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "repository": "https://github.com/OpZero-sh/met-museum-explorer-plugin",
+  "keywords": [
+    "art",
+    "museum",
+    "collections"
+  ],
+  "displayName": "Met Museum Explorer",
+  "homepage": "https://github.com/OpZero-sh/met-museum-explorer-plugin",
+  "documentationUrl": "https://github.com/OpZero-sh/met-museum-explorer-plugin#readme",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "supportUrl": "https://opzero.sh/support",
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "icon": "./assets/icon.png",
+  "license": "LicenseRef-OpZero-Plugin"
+}

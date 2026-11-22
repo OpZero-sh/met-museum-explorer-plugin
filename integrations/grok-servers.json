@@ -1,0 +1,10 @@
+{
+  "met-museum-explorer": {
+    "url": "https://met-museum-explorer.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "get_met_artwork",
+      "list_met_departments",
+      "search_met_artworks"
+    ]
+  }
+}

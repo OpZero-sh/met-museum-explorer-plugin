@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "name": "met-museum-explorer",
+  "version": "1.0.0",
+  "displayName": "Met Museum Explorer",
+  "description": "Build a personal tour of The Met with collection records, gallery numbers and questions for close looking.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "build-a-gallery-tour",
+        "path": "skills/build-a-gallery-tour/SKILL.md"
+      }
+    ],
+    "mcpServers": [
+      {
+        "id": "met-museum-explorer",
+        "transport": "http",
+        "url": "https://met-museum-explorer.mcp.opzero.sh/mcp"
+      }
+    ]
+  }
+}

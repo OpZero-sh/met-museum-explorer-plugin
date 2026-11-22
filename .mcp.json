@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "met-museum-explorer": {
+      "type": "http",
+      "url": "https://met-museum-explorer.mcp.opzero.sh/mcp"
+    }
+  }
+}

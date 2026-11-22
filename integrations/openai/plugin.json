@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "met-museum-explorer",
+  "version": "1.0.0",
+  "description": "Build a personal tour of The Met with collection records, gallery numbers and questions for close looking.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/met-museum-explorer-plugin",
+  "repository": "https://github.com/OpZero-sh/met-museum-explorer-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Met Museum Explorer",
+        "shortDescription": "Explore The Met collection",
+        "longDescription": "Build a personal tour of The Met with collection records, gallery numbers and questions for close looking.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/OpZero-sh/met-museum-explorer-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
