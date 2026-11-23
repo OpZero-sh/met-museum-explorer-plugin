@@ -35,7 +35,7 @@ The skills share reference notes in `skills/build-a-gallery-tour/references/`: t
 
 ### Hooks
 
-None. Every tool in this plugin is read only, so there is nothing to guard.
+None. The plugin has no hooks and runs no code on your machine. Every tool in it is read only.
 
 ## Data source and limits
 
@@ -51,9 +51,9 @@ OpZero publishes this plugin and runs the [Met Museum Explorer service](https://
 - **One remote MCP server:** `https://met-museum-explorer.mcp.opzero.sh/mcp`. A request carries only the tool arguments: search keywords, filters, a department id or an object id. No sign in is used. The service states that requests are not stored.
 - **Links in answers** point to object pages on metmuseum.org and, for public domain works, to image files on the museum's image host. The plugin does not fetch them. They open only if you follow them.
 - **No hooks, no local server and no install step.** Nothing in the plugin runs a program on your machine.
-- **Two optional scripts** for people working from a checkout. Claude does not run them and the plugin does not need them.
-  - `scripts/build_openai.py` builds the ZIP package for ChatGPT and Codex from the files in this repository. It reads local files, writes ZIP files to the folder you name and makes no network request.
-  - `integrations/grok_example.py` prepares a request to the xAI API that points Grok at the same MCP server, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`. That happens only when you run the script yourself.
+- **No scripts in this repository.** Two optional scripts for other clients are in the catalog repository, [OpZero-sh/plugins](https://github.com/OpZero-sh/plugins). Claude does not run them and the plugin does not need them.
+  - `tools/build_openai.py` builds the ZIP package for ChatGPT and Codex from the skills, the license, the product icon and `integrations/openai/` in a checkout of this repository. It reads local files, writes ZIP files to the folder you name and makes no network request.
+  - `tools/grok_example.py` prepares a request to the xAI API that points Grok at the same MCP server, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`. That happens only when you run the script yourself.
 
 ## In use
 
